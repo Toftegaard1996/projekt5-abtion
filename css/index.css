@@ -23,6 +23,10 @@ body{
 
 /* Vejret */
 
+.menu{
+    
+}
+
 /* Parents */
 
 .back{
@@ -33,7 +37,7 @@ body{
 
 .parentHeadline{
     text-align: center;
-    color: #ED7A1B;
+    color: #F7E648;
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 30px;
