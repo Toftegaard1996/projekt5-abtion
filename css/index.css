@@ -36,6 +36,8 @@ body{
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 30px;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px #ED7A1B;
 }
 
 .parentText{
@@ -45,27 +47,33 @@ body{
     margin-left: 25px;
     margin-bottom: 30px;
     font-size: 110%;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #ED7A1B;
 }
 
 .indstillinger{
     float: left;
     font-size: 150%;
     border: 2px solid black;
-    padding: 10px;
+    padding: 15px;
     background-color: #ED7A1B;
     color: #191847;
     margin-left: 150px;
+    border-radius: 25px;
+    font-weight: bold;
+    box-shadow: 
 }
 
 .help{
     float: right;
     font-size: 150%;
     border: 2px solid black;
-    padding: 10px;
+    padding: 15px;
     background-color: #ED7A1B;
     color: #191847;
     margin-right: 150px;
-    
+    border-radius: 25px;
+    font-weight: bold;
 }
 
 /* Ven */
