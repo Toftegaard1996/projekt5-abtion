@@ -33,16 +33,27 @@ body{
     float: left;
     background-color: #2B9AC1;
     box-shadow: 5px 5px 5px #191847;
+    border-radius: 25px;
+    width: 90px;
+}
+
+.parentSpil{
+    float: right;
+    background-color: #2B9AC1;
+    box-shadow: 5px 5px 5px #191847;
+    border-radius: 25px;
+    width: 90px;
 }
 
 .parentHeadline{
     text-align: center;
     color: #F7E648;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
     margin-bottom: 30px;
     font-weight: bold;
     text-shadow: 3px 3px 3px black;
+    text-decoration: underline;
 }
 
 .parentText{
