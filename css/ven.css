@@ -2,9 +2,15 @@ body{
     width: 1024px;
     height: 784px;
     font-family:'montserrat', sans-serif;
-    background-color: #2B9AC1;
-    
- 
-    
-    
+    background-color: #2B9AC1;  
+}
+
+.headline{
+    color: #F7E648; 
+    font-size: 240%; 
+}
+
+.boy{
+    width: 100px; 
+    height: 100px;  
 }
