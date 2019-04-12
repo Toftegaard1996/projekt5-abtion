@@ -4,7 +4,8 @@ body{
     height: 784px;
     font-family:'montserrat', sans-serif;
     background-color: #2B9AC1;
-    
+    border: 2px solid black;
+    overflow: hidden;
 }
 
 /* Animtioner */
@@ -49,7 +50,7 @@ body{
 .parentHeadline{
     text-align: center;
     color: #F7E648;
-    margin: 40px 150px;
+    margin: 100px 150px 40px;
     font-weight: bold;
     text-shadow: 3px 3px 3px black;
     text-decoration: underline;
@@ -95,3 +96,36 @@ body{
 /* Ven */
 
 /* Spil */
+
+.spilHeadline{
+    text-align: center;
+    color: #F7E648;
+    margin: 40px 150px;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px black;
+    text-decoration: underline;
+}
+
+.busk1{
+    height: 200px;
+    width: 250px;
+    float: left;
+    position: relative;
+    top: 250px;
+}
+
+.busk2{
+    height: 200px;
+    width: 250px;
+    float: right;
+    position: relative;
+    top:150px;
+}
+
+.spilVen{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    left: 362px;
+    right: 362px;
+}
