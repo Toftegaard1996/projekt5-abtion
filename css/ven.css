@@ -5,12 +5,138 @@ body{
     background-color: #2B9AC1;  
 }
 
-.headline{
-    color: #F7E648; 
-    font-size: 240%; 
+.tilbagepil{
+    
 }
 
+.controller{ 
+    margin-left: 92%; 
+    margin-top: -6%
+}
 .boy{
     width: 100px; 
-    height: 100px;  
+    height: 100px;
+    float: left; 
+    margin-left: 5%; 
+    margin-top: 17%;
+     
  }
+
+.bunny{
+    width: 100px; 
+    height: 100px; 
+    float: left; 
+    margin-left: 3%; 
+    margin-top: 3%; 
+    
+}
+
+.cat{
+    width: 100px; 
+    height: 100px;
+    float: left; 
+    margin-left: 3%;
+    margin-top: 17%; 
+   
+}
+
+.dino{
+    width: 100px; 
+    height: 100px;
+    float: left; 
+    margin-left: 3%;
+    margin-top: 3%; 
+    
+}
+
+.elephant{
+    width: 100px; 
+    height: 100px;
+    float: left; 
+    margin-left: 3%; 
+    margin-top: 17%;
+    
+}
+
+.fox{
+    width: 100px; 
+    height: 100px;
+    float: left; 
+    margin-left: 3%;
+    margin-top: 3%; 
+    
+}
+
+.hero{
+    width: 100px; 
+    height: 100px;
+    float: left; 
+    margin-left: 3%;
+    margin-top: 17%; 
+    
+}
+
+.headline{
+    color: #F7E648; 
+    font-size: 400%;
+    margin-left: 35%; 
+    margin-bottom: -3%; 
+}
+
+.monkey{
+    width: 100px; 
+    height: 100px;
+    float: left; 
+    margin-left: 5%;
+    margin-top: 6%;
+    
+}
+
+.ninja{
+    width: 100px; 
+    height: 100px;
+    float: left; 
+    margin-left: 3%; 
+    margin-top: 21%;
+    
+}
+
+.princess{
+    width: 100px; 
+    height: 100px;
+    float: left; 
+    margin-left: 3%; 
+    margin-top: 6%; 
+}
+
+.teddy{
+    width: 100px; 
+    height: 100px;
+    float: left; 
+    margin-left: 3%; 
+    margin-top: 21%;
+}
+
+.tiger{
+    width: 100px; 
+    height: 100px;
+    float: left; 
+    margin-left: 3%; 
+    margin-top: 6%;
+}
+
+.girl{
+    width: 100px; 
+    height: 100px;
+    float: left;
+    margin-left: 3%; 
+    margin-top: 21%;
+}
+
+.lion{
+    width: 100px; 
+    height: 100px;
+    float: left;
+    margin-left: 3%; 
+    margin-top: 6%; 
+}
