@@ -6,12 +6,14 @@ body{
 }
 
 .tilbagepil{
+    background-color: #2B9AC1;
     
 }
 
 .controller{ 
     margin-left: 92%; 
-    margin-top: -6%
+    margin-top: -6%;
+    background-color: #2B9AC1;
 }
 .boy{
     width: 100px; 
