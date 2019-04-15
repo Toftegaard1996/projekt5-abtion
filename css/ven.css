@@ -7,6 +7,10 @@ body{
 
 .tilbagepil{
     background-color: #2B9AC1;
+    box-shadow: 5px 5px 5px #191847;
+    border-radius: 25px;
+    width: 90px;
+    height: 80px;
     
 }
 
@@ -14,7 +18,12 @@ body{
     margin-left: 92%; 
     margin-top: -6%;
     background-color: #2B9AC1;
+    box-shadow: 5px 5px 5px #191847;
+    border-radius: 25px;
+    width: 90px;
+    height: 80px;
 }
+
 .boy{
     width: 100px; 
     height: 100px;
