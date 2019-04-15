@@ -96,7 +96,7 @@ body{
 .spilHeadline{
     text-align: center;
     color: #F7E648;
-    margin: 40px 150px;
+    margin: 30px 150px;
     font-weight: bold;
     text-shadow: 3px 3px 3px black;
     text-decoration: underline;
@@ -104,10 +104,12 @@ body{
 
 /* Tryk på spil - map */
 .kort1{
-    height: 620px;
+    height: 640px;
     width: 1024px;
     position: relative;
 }
+
+
 
 /* Første valgmulighed */
 .baggrund{
@@ -116,26 +118,28 @@ body{
     background: #ffffff;
 }
 
-.busk1{
-    height: 200px;
-    width: 250px;
+.umbrella{
+    height: 150px;
+    width: 150px;
     float: left;
     position: relative;
     top: 400px;
+    margin: 10px;
 }
 
-.busk2{
-    height: 200px;
-    width: 250px;
+.sunglasses{
+    height: 150px;
+    width: 150px;
     float: right;
     position: relative;
-    top: 450px;
+    top: 400px;
+    margin: 10px;
 }
 
 .spilVen{
     height: 450px;
     width: 300px;
-    top: 500px;
+    margin-top: 200px;
 }
 
 
@@ -146,9 +150,20 @@ body{
     background: #fff999;
 }
 
-.umbrella{
-    
-    
+.busk1{
+    height: 200px;
+    width: 250px;
+    float: left;
+    position: relative;
+    top: 400px;   
+}
+
+.busk2{
+    height: 200px;
+    width: 250px;
+    float: right;
+    position: relative;
+    top: 450px;
 }
 
 .paraplyTeddy{
