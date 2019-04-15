@@ -64,7 +64,15 @@ body{
     border-top: 10px solid #F0F8FF;
     border-bottom: 10px solid transparent;
     right: -20px;
-    top: px;
+}
+
+.vejretGrader{
+    display: block;
+    text-align: center;
+    font-family: monospace;
+    font-size: 50px;
+    margin-top: 50px;
+    color: #F0F8FF
 }
 
 /* Parents */
