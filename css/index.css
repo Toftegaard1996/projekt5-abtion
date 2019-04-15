@@ -102,6 +102,11 @@ body{
     text-decoration: underline;
 }
 
+.kort{
+    width: 1024;
+    
+}
+
 .busk1{
     height: 200px;
     width: 250px;
