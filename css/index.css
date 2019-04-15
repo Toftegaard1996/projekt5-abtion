@@ -23,6 +23,21 @@ body{
 
 /* Vejret */
 
+.vejretBear{
+    height: 400px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vejretSky{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Parents */
 
 .back{
