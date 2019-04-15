@@ -1,11 +1,8 @@
-function parentTilbage() {
+function tilbage() {
     window.location.href = 'index.html';
 }
 
-function parentSpil() {
+function spil() {
     window.location.href = 'spil.html';
 }
 
-function spilTilbage() {
-    window.location.href = 'index.html';
-}
