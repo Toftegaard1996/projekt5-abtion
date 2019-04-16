@@ -6,17 +6,32 @@
             <meta charset="utf-8">
             <title> Lille sky - vejrapp for børn
             </title>
+            <script src="javascript/lille_sky.js">
+            </script>
         </head>
         <body>
-             <div class="lille-sky">
-            </div>
-            <header>
-                <div class="menuButtons">
-                    <img class="menu" alt="burger menu knap">
-                    <img class="controller" alt="Kontroller til at starte spillet">
+            <button onclick="tilbage()" class="menu" type="button">
+                <img src="billeder/burgermenu.png" alt="Menu knap">
+            </button>
+            <button onclick="spil()" class="menuSpil" type="button">
+                <img src="billeder/controller.png" alt="Kontroller">
+            </button>
+            <div class="vejr">
+                <div>
+                    <img class="vejretSky" src="billeder/Sky.png" alt="sky">
                 </div>
-            </header>
-            <div class="vejr"></div> 
+                <div>
+                    <div class="speechBox1">KLIK PÅ MIG <br> HVIS DU VIL SPILLE
+                    </div>
+                    <img class="vejretBear" alt="Bjørn" src="billeder/UmbrellaBj%C3%B8rn.png">
+                </div>
+
+                <div class="vejretGrader">12°
+                </div>
+                <div class="lille-sky">
+                </div> 
+            </div>
+             
             
         </body>
 
