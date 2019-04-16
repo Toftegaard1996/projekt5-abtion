@@ -10,7 +10,5 @@ function spil() {
 
 function dreng() {
     document.getElementsByClassName("boySelected").style.display = "block";
-<div class="boySelected">
-               <img src="billeder/Boy.png" alt="Dreng" class="boy2">
-           </div>
+
 }

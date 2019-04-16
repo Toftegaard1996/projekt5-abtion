@@ -3,7 +3,7 @@ body{
     width: 1024px;
     height: 784px;
     font-family:'montserrat', sans-serif;
-    background-color: #2B9AC1;
+    background: linear-gradient(to bottom, #2B9AC1 0%, #2B9AC1 70%, #D4A181 70%, #D4A181 100%);
     
 }
 
@@ -12,8 +12,9 @@ body{
 .lille-sky {
     width: 1024px;
     height: 784px;
-    background: url(../billeder/LoadingSkyAnimation-01.png) 0 0 no-repeat;
+    background: url(../billeder/LoadingSkyAdnimation-01.png) 0 0 no-repeat;
     animation: lille-sky 2s steps(15) infinite;
+    position: absolute;
 }
 
 @keyframes lille-sky {
@@ -23,19 +24,46 @@ body{
 
 /* Vejret */
 
+.menu{
+    float: left;
+    background-color: #2B9AC1;
+    box-shadow: 5px 5px 5px #191847;
+    border-radius: 25px;
+    width: 90px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.menuSpil{
+    float: right;
+    background-color: #2B9AC1;
+    box-shadow: 5px 5px 5px #191847;
+    border-radius: 25px;
+    width: 90px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.vejr{
+    
+}
+
 .vejretBear{
     height: 400px;
     width: 250px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 425px;
+    margin-top: 300px;
+    position: absolute;
+    
 }
 
 .vejretSky{
     width: 40%;
+    height: 35%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 300px;
+    position: absolute;
 }
 
 .speechBox1 {
@@ -46,12 +74,12 @@ body{
     text-align: center;
     font-weight: 900;
     color: #F0F8FF;
-    font-family: arial;
     position: relative;
     border-radius: 25px;
     position: absolute;
-    margin-top: 150px;
+    margin-top: 450px;
     margin-left: 140px;
+    position: absolute;
 }
 
 .speechBox1:before {
@@ -64,15 +92,17 @@ body{
     border-top: 10px solid #F0F8FF;
     border-bottom: 10px solid transparent;
     right: -20px;
+    position: absolute;
 }
 
 .vejretGrader{
     display: block;
     text-align: center;
-    font-family: monospace;
     font-size: 50px;
-    margin-top: 50px;
-    color: #F0F8FF
+    margin-top: 700px;
+    margin-left: 500px;
+    color: #F0F8FF;
+    position: absolute;
 }
 
 /* Parents */
@@ -84,6 +114,7 @@ body{
     border-radius: 25px;
     width: 90px;
     height: 80px;
+    cursor: pointer;
 }
 
 .parentSpil{
@@ -93,6 +124,7 @@ body{
     border-radius: 25px;
     width: 90px;
     height: 80px;
+    cursor: pointer;
 }
 
 .parentHeadline{
