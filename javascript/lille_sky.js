@@ -12,3 +12,9 @@ function dreng() {
     document.getElementsByClassName("boySelected").style.display = "block";
 
 }
+
+function lilleSky() {
+    let getLilleSky = document.querySelector(".lille-sky").style.visibility = "hidden";
+}
+
+setTimeout(lilleSky, 3000);
