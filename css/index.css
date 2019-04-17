@@ -196,7 +196,7 @@ body{
 
 
 /* Første valgmulighed */
-.baggrund{
+.choice1{
     height: 784px;
     width: 1024px;
     background: #ffffff;
@@ -227,8 +227,36 @@ body{
 }
 
 
-/* Valget mellem paraplyen og solbrillerne*/
-.umbrellaBear{
+/* Rigtigt valg - Paraplyen*/
+.rightChoice1{
+    height: 784px;
+    width: 1024px;
+    background: #fff999;
+}
+
+.busk1{
+    height: 200px;
+    width: 250px;
+    float: left;
+    position: relative;
+    top: 400px;   
+}
+
+.busk2{
+    height: 200px;
+    width: 250px;
+    float: right;
+    position: relative;
+    top: 450px;
+}
+
+.paraplyTeddy{
+    height: 550px;
+    width: 350px;
+}
+
+/* Forkert valg - Solbrillerne*/
+.wrongChoice1{
     height: 784px;
     width: 1024px;
     background: #fff999;
