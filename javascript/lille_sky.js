@@ -8,11 +8,6 @@ function spil() {
     window.location.href = 'spil.html';
 }
 
-function vejrSpil() {
-    let getVejrKnap = document.querySelector(".vejr").style.display = "hidden";
-    let getKortSpil = document.querySelector(".spilValg").style.display = "visible";
-}
-
 function dreng() {
     document.querySelector("boySelected").style.display = "block";
 
