@@ -7,7 +7,7 @@ body{
     
 }
 
-/* Animtioner */
+/* Animationer */
 
 .lille-sky {
     width: 1024px;
@@ -232,8 +232,6 @@ body{
     position: relative;
 }
 
-
-
 /* Første valgmulighed */
 .choice1{
     height: 784px;
@@ -260,9 +258,12 @@ body{
 }
 
 .spilVen{
-    height: 450px;
-    width: 300px;
-    margin-top: 200px;
+    height: 400px;
+    width: 250px;
+    display: block;
+    margin-left: 387px;
+    margin-top: 275px;
+    position: absolute;
 }
 
 
@@ -271,6 +272,7 @@ body{
     height: 784px;
     width: 1024px;
     background: #dd7778;
+    cursor: pointer;
 }
 
 .busk1{
@@ -290,8 +292,12 @@ body{
 }
 
 .paraplyTeddy{
-    height: 550px;
-    width: 350px;
+    height: 400px;
+    width: 250px;
+    display: block;
+    margin-left: 387px;
+    margin-top: 130px;
+    position: absolute;
 }
 
 /* Forkert valg - Solbrillerne*/
