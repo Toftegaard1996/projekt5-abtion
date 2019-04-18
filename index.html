@@ -10,27 +10,40 @@
             </script>
         </head>
         <body>
-            <button onclick="tilbage()" class="menu" type="button">
-                <img src="billeder/burgermenu.png" alt="Menu knap">
-            </button>
-            <button onclick="spil()" class="menuSpil" type="button">
-                <img src="billeder/controller.png" alt="Kontroller">
-            </button>
-            <div class="vejr">
-                <div>
-                    <img class="vejretSky" src="billeder/Sky.png" alt="sky">
+          <div class="spilValg">
+                <button onclick="tilbage()" class="menu" type="button">
+                    <img src="billeder/burgermenu.png" alt="Menu knap">
+                </button>
+                <button onclick="spil()" class="menuSpil" type="button">
+                    <img src="billeder/controller.png" alt="Kontroller">
+                </button>
+                <img class="valgSky" alt="Sky" src="billeder/Sky.png">
+                <img class="valgBamse" alt="Bamse" src="billeder/Bear.png">
+                <button>
+                    <img class="valgSolbriller" alt="Solbriller" src="billeder/Sunglasses.png">
+                </button>
+                <button>
+                    <img class="paraply" alt="Paraply" src="billeder/Umbrella.png">
+                </button>
+          </div>
+           <div class="vejr">
+                <button onclick="tilbage()" class="menu" type="button">
+                    <img src="billeder/burgermenu.png" alt="Menu knap">
+                </button>
+                <button onclick="spil()" class="menuSpil" type="button">
+                    <img src="billeder/controller.png" alt="Kontroller">
+                </button>
+                <img class="vejretSky" src="billeder/Sky.png" alt="sky">
+                <div class="speechBox1">KLIK PÅ MIG <br> HVIS DU VIL SPILLE
                 </div>
-                <div>
-                    <div class="speechBox1">KLIK PÅ MIG <br> HVIS DU VIL SPILLE
-                    </div>
+                <button onclick="vejrSpil()" class="kortSpil" type="button">
                     <img class="vejretBear" alt="Bjørn" src="billeder/UmbrellaBj%C3%B8rn.png">
-                </div>
-
+                </button>
                 <div class="vejretGrader">12°
                 </div>
-                <div class="lille-sky">
-                </div> 
             </div>
+            <div class="lille-sky">
+            </div> 
              
             
         </body>
