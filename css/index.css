@@ -329,7 +329,11 @@ body{
 }
 
 .sunglassesTeddy{
-    height: 550px;
-    width: 350px;
+    height: 400px;
+    width: 250px;
+    display: block;
+    margin-left: 387px;
+    margin-top: 130px;
+    position: absolute;
 }
 
