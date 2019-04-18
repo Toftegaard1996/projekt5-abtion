@@ -236,7 +236,7 @@ body{
 .choice1{
     height: 784px;
     width: 1024px;
-    background: #ffffff;
+    background: linear-gradient(to bottom, #2B9AC1 0%, #2B9AC1 70%, #D4A181 70%, #D4A181 100%)
 }
 
 .umbrella{
