@@ -49,6 +49,31 @@ body{
     cursor: pointer;
 }
 
+.menu-boks{
+    position: absolute;
+    width: 90px;
+    height: 400px;
+    font-size: 20px;
+}
+
+.menu-boks ul li{
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
+    color: #F7E648;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px black;
+    
+}
+
+.menu-boks ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: #F7E648;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px black;
+}
+
 .vejretBear{
     height: 400px;
     width: 250px;
