@@ -271,6 +271,7 @@ body{
     position: relative;
     top: 400px;
     margin: 10px;
+    z-index: 1;
 }
 
 .sunglasses{
@@ -280,6 +281,7 @@ body{
     position: relative;
     top: 400px;
     margin: 10px;
+    z-index: 1;
 }
 
 .spilVen{
@@ -287,8 +289,9 @@ body{
     width: 250px;
     display: block;
     margin-left: 387px;
-    margin-top: 275px;
+    margin-top: 100px;
     position: absolute;
+    z-index: 2;
 }
 
 
@@ -319,14 +322,15 @@ body{
 .rainCloud{
     height: 400px;
     width: 400px;
+    z-index: 1;
 }
 
 .paraplyTeddy{
-    height: 400px;
-    width: 250px;
+    height: 500px;
+    width: 280px;
     display: block;
     margin-left: 387px;
-    margin-top: 130px;
+    margin-top: 200px;
     position: absolute;
 }
 
@@ -355,10 +359,10 @@ body{
 
 .sunglassesTeddy{
     height: 400px;
-    width: 250px;
+    width: 255px;
     display: block;
     margin-left: 387px;
-    margin-top: 130px;
+    margin-top: 300px;
     position: absolute;
 }
 
