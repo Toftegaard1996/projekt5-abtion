@@ -10,6 +10,28 @@
             </script>
         </head>
         <body>
+        <div class="kortSpilRigtigt">
+            <button onclick="toggleMenu()" class="menu" type="button">
+                <img src="billeder/burgermenu.png" alt="Menu knap">
+            </button>
+            <button onclick="spil()" class="menuSpil" type="button">
+                <img src="billeder/controller.png" alt="Kontroller">
+            </button>
+            <img class="valgSky" alt="Sky" src="billeder/RainCloud.png">
+            <img class="happybear" alt="Bjørn med paraply" src="billeder/UmbrellaBj%C3%B8rn.png">
+            <div class="happybox">Tak<br>Det var det rigtige valg</div>
+        </div>
+         <div class="kortSpilForkert">
+             <button onclick="toggleMenu()" class="menu" type="button">
+                <img src="billeder/burgermenu.png" alt="Menu knap">
+            </button>
+            <button onclick="spil()" class="menuSpil" type="button">
+                <img src="billeder/controller.png" alt="Kontroller">
+            </button>
+            <img class="valgSky" alt="Sky" src="billeder/RainCloud.png">
+            <img class="sadBear" alt="Bjørn med solbriller" src="billeder/SadSunglasses.png">
+            <div class="talebox">Øv<br>Prøv igen</div>
+         </div>
           <div class="spilValg">
                 <button onclick="toggleMenu()" class="menu" type="button">
                     <img src="billeder/burgermenu.png" alt="Menu knap">
@@ -22,7 +44,7 @@
                 <button>
                     <img class="valgSolbriller" alt="Solbriller" src="billeder/Sunglasses.png">
                 </button>
-                <button>
+                <button onclick="valgSpil()" type="button">
                     <img class="paraply" alt="Paraply" src="billeder/Umbrella.png">
                 </button>
           </div>

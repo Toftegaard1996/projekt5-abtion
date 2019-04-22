@@ -66,10 +66,25 @@ let vejrSpilStatus = true;
 
 let vejrSpil = function() {
     let getVejr = document.querySelector(".vejr");
-    let getkortSpil = document.querySelector(".spilValg")
+    let getkortSpil = document.querySelector(".spilValg");
     
     if (vejrSpilStatus === true) {
         getkortSpil.style.visibility = "visible";
         getVejr.style.visibility = "hidden";
+    }
+}
+
+/* Kort spil valg */
+
+let valgSpilStatus = true;
+
+let valgSpil = function() {
+    let getValgSpil = document.querySelector(".spilValg");
+    let getValgRigtigt = document.querySelector(".kortSpilRigtigt");
+    
+    if (valgSpilStatus === true) {
+        getValgSpil.style.visibility = "hidden";
+        getValgRigtigt.style.visibility = "visible";
+        
     }
 }
