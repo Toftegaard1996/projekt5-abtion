@@ -59,3 +59,17 @@ let toggleMenu = function() {
         toggleMenuStatus = false;
     }
 }
+
+/* Knap til start af kort spil */
+
+let vejrSpilStatus = true;
+
+let vejrSpil = function() {
+    let getVejr = document.querySelector(".vejr");
+    let getkortSpil = document.querySelector(".spilValg")
+    
+    if (vejrSpilStatus === true) {
+        getkortSpil.style.visibility = "visible";
+        getVejr.style.visibility = "hidden";
+    }
+}

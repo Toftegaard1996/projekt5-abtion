@@ -12,7 +12,7 @@ body{
 .lille-sky {
     width: 1024px;
     height: 784px;
-    background: url(../billeder/LoadingSkyAnimation-01.png) 0 0 no-repeat;
+    background: url(../billeder/LoadingSkyAnimadtion-01.png) 0 0 no-repeat;
     animation: lille-sky 2s steps(15) infinite;
     position: absolute;
 }
