@@ -12,7 +12,7 @@ body{
 .lille-sky {
     width: 1024px;
     height: 784px;
-    background: url(../billeder/LoadingSkyAnimadtion-01.png) 0 0 no-repeat;
+    background: url(../billeder/LoadingSkyAnimation-01.png) 0 0 no-repeat;
     animation: lille-sky 2s steps(15) infinite;
     position: absolute;
 }
@@ -40,7 +40,8 @@ body{
 }
 
 .menuSpil{
-    float: right;
+    position: fixed;
+    margin-left: 900px;
     background-color: #2B9AC1;
     box-shadow: 5px 5px 5px #191847;
     border-radius: 25px;
@@ -95,11 +96,10 @@ body{
 }
 
 .vejretBear{
-    height: 400px;
-    width: 250px;
+    height: 500px;
     display: block;
-    margin-left: 425px;
-    margin-top: 275px;
+    margin-left: 400px;
+    margin-top: 200px;
     position: absolute;
     cursor: pointer;
 }
@@ -125,7 +125,6 @@ body{
     position: absolute;
     margin-top: 450px;
     margin-left: 140px;
-    position: absolute;
 }
 
 .speechBox1:before {
@@ -169,24 +168,79 @@ body{
     height: 400px;
     width: 250px;
     display: block;
-    margin-left: 425px;
+    margin-left: 400px;
     margin-top: 300px;
     position: absolute;
-    cursor: pointer;
 }
 
 .valgSolbriller{
     position: absolute;
     margin-top: 350px;
-    margin-left: 50px;
+    margin-left: 100px;
     cursor: pointer;
 }
 
 .paraply{
     position: absolute;
-    margin-left: 600px;
+    margin-left: 650px;
     margin-top: 300px;
     cursor: pointer;
+}
+
+/* Kort spil forkert valg */
+
+.kortSpilForkert{
+    visibility: hidden;
+}
+
+.sadBear{
+    height: 400px;
+    display: block;
+    margin-left: 400px;
+    margin-top: 300px;
+    position: absolute;
+}
+
+.talebox{
+    position: absolute;
+    text-align: center;
+    margin-top: 400px;
+    margin-left: 150px;
+    font-size: 20px;
+    border: 4px solid #F0F8FF;
+    padding: 20px;
+    text-align: center;
+    color: #F0F8FF;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+
+/* Kort spil rigtigt valg */
+
+.kortSpilRigtigt{
+    visibility: hidden;
+}
+
+.happybear{
+    height: 500px;
+    display: block;
+    margin-left: 400px;
+    margin-top: 200px;
+    position: absolute;
+}
+
+.happybox{
+    position: absolute;
+    text-align: center;
+    margin-top: 400px;
+    margin-left: 75px;
+    font-size: 20px;
+    border: 4px solid #F0F8FF;
+    padding: 20px;
+    text-align: center;
+    color: #F0F8FF;
+    border-radius: 25px;
+    text-transform: uppercase;
 }
 
 /* Parents */

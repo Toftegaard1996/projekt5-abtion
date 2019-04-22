@@ -66,7 +66,7 @@ let vejrSpilStatus = true;
 
 let vejrSpil = function() {
     let getVejr = document.querySelector(".vejr");
-    let getkortSpil = document.querySelector(".spilValg")
+    let getkortSpil = document.querySelector(".spilValg");
     
     if (vejrSpilStatus === true) {
         getkortSpil.style.visibility = "visible";
