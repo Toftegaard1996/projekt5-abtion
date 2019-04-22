@@ -56,6 +56,7 @@ body{
     padding 0 5px;
     font-size: 20px;
     margin-top: 80px;
+    transition: all 0.3s ease-in-out;
 }
 
 .menu-boks ul{
@@ -81,6 +82,12 @@ body{
     font-size: 24px;
     white-space: nowrap;
     opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-boks ul li span{
+    text-decoration: underline;
+    font-size: 28px;
 }
 
 .menu-boks ul li a:hover{

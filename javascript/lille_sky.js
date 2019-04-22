@@ -8,11 +8,6 @@ function spil() {
     window.location.href = 'spil.html';
 }
 
-function dreng() {
-    document.querySelector("boySelected").style.display = "block";
-
-}
-
 /* timing */
 
 function lilleSky() {
@@ -40,11 +35,27 @@ let toggleMenu = function() {
     if (toggleMenuStatus === false) {
         getMenuBoksUl.style.visibility = "visible";
         getMenuBoks.style.width = "272px";
-        getMenuBoksTitle.style.opacity = "0.5";
+        getMenuBoksTitle.style.opacity = "1";
         
         let arrayLength = getMenuBoksLinks.length;
         for (let i = 0; i < arrayLength; i++) {
-            
+            getMenuBoksLinks[i].style.opacity = "1";
         }
+        
+        toggleMenuStatus = true;
+    }
+    
+    else if (toggleMenuStatus === true) {
+        getMenuBoks.style.width = "80px";
+        getMenuBoksTitle.style.opacity = "0";
+        
+        let arrayLength = getMenuBoksLinks.length;
+        for (let i = 0; i < arrayLength; i++) {
+            getMenuBoksLinks[i].style.opacity = "0";
+        }
+        
+        getMenuBoksUl.style.visibility = "hidden";
+        
+        toggleMenuStatus = false;
     }
 }
