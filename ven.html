@@ -8,6 +8,7 @@
             </title>
             <script src="javascript/lille_sky.js">
             </script>
+          
         </head>
         <body>
           <button onclick="tilbage()" class="tilbagepil" type="button">
@@ -16,12 +17,21 @@
           <button onclick="spil()" class="controller" type="button">
               <img src="billeder/controller.png" alt="controller">
           </button>
-           <button class="boy" onclick="dreng()" type="button">
-               <img src="billeder/boyround.png" alt="boy"> 
-            </button>
-            <div class="boySelected">
-               <img src="billeder/Boy.png" alt="Dreng" class="boy2">
-           </div>
+          
+           <img class="boy" id="myImg" src="billeder/boyround.png" alt="Dreng">
+            
+         <div id="myModal" class="modal">
+
+          <!-- &times er en html entity -->
+          <span class="close">&times;</span>
+
+          <!-- Modal Content (større billede efter click) -->
+          <img class="modalContent" id="bigVen">
+
+          <!-- Modal tekst under billede -->
+          <div id="caption"></div>
+        </div>
+        
            <div class="bunny" onclick="kanin">
                <img src="billeder/bunnyround.png" alt="bunny">
            </div>
@@ -62,6 +72,9 @@
            <div class="lion">
                <img src="billeder/lionround.png" alt="lion">
            </div>
+           
+            <script src="javascript/modal.js">
+            </script>
         </body>
         
        

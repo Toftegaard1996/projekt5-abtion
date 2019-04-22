@@ -26,25 +26,6 @@ body{
     cursor: pointer;
 }
 
-.boy{
-    width: 100px; 
-    height: 100px;
-    float: left; 
-    margin-left: 5%; 
-    margin-top: 17%;   
- }
-
-.boy2{
-    height: 700px;
-}
-
-.boySelected{
-    position: fixed;
-    display: none;
-    margin-left: 30%;
-    z-index: 2;
-    cursor: pointer;
-}
 
 .bunny{
     width: 100px; 
@@ -165,3 +146,83 @@ body{
     margin-left: 3%; 
     margin-top: 6%; 
 }
+
+/* karakter popup */
+
+.boy{
+    width: 100px; 
+    height: 140px;
+    float: left; 
+    margin-left: 5%; 
+    margin-top: 17%;   
+ }
+
+#myImg {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {
+    opacity: 0.7;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modalContent {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 500px;
+    margin-bottom: -170px;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 50%;
+  max-width: 700px;
+  text-align: center;
+  color: #F7E648;
+  padding: 10px 0;
+    font-size: 50px;
+
+}
+
+.modalContent, #caption { 
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+.close {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  color: #F7E648;
+  font-size: 100px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
