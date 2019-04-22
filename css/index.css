@@ -261,6 +261,11 @@ body{
 
 /* Spil */
 
+.playGame{
+    
+}
+
+
 .spilHeadline{
     text-align: center;
     color: #F7E648;
@@ -277,21 +282,31 @@ body{
     position: relative;
 }
 
-/* Første valgmulighed */
-.choice1{
-    height: 784px;
-    width: 1024px;
-    background: linear-gradient(to bottom, #2B9AC1 0%, #2B9AC1 70%, #D4A181 70%, #D4A181 100%);
+/*DIV CLASSES*/
+
+.tilbageknap{
+}
+
+.raincloud{
+}
+
+.teddybear{
+}
+
+.raincloud{
+    position: relative; 
+    margin-left: 300px;
+    margin-right: 300px;
+    width: 400px;
+    height: 400px;
+    position: relative;
 }
 
 .umbrella{
-    height: 150px;
-    width: 150px;
     float: left;
     position: relative;
     top: 400px;
     margin: 10px;
-    z-index: 1;
 }
 
 .sunglasses{
@@ -304,26 +319,68 @@ body{
     z-index: 1;
 }
 
-.spilVen{
-    height: 400px;
+.bushes{
+    height: 200px;
     width: 250px;
-    display: block;
-    margin-left: 387px;
-    margin-top: 100px;
-    position: absolute;
-    z-index: 2;
+    position: relative;  
 }
 
-
-/* Rigtigt valg - Paraplyen*/
-.rightChoice1{
+/* FØRSTE VALGMULIGHED */
+.choice1{
     height: 784px;
     width: 1024px;
-    background: linear-gradient(to bottom, #2B9AC1 0%, #2B9AC1 70%, #D4A181 70%, #D4A181 100%);
+    background: linear-gradient(to bottom, #2B9AC1 0%, #2B9AA4 70%, #D4A181 70%, #D4A181 100%);
+}
+
+#tilbageKnap1{
+    float: left;
+    background-color: #2B9AC1;
+    box-shadow: 5px 5px 5px #191847;
+    border-radius: 25px;
+    width: 90px;
+    height: 80px;
     cursor: pointer;
 }
 
-.busk1{
+
+#raincloud1 { 
+    height: 400px;
+    width: 400px;
+    position: relative;   
+}
+
+#teddybear1 { 
+    position: relative; 
+    width: 250px;   
+    margin-left: 386px;
+    margin-right: 386px;
+    top:10px;
+}
+
+#umbrella1{
+    position: relative;
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+
+#sunglasses1{
+    position: relative;
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    float: right;
+}
+
+/*ANDEN VALGMULIGHED*/
+.choice2{
+    height: 784px;
+    width: 1024px;
+    background: linear-gradient(to bottom, #2B9AC1 0%, #2B9AA4 70%, #D4A181 70%, #D4A181 100%);
+}
+
+#bush1{
     height: 200px;
     width: 250px;
     float: left;
@@ -331,7 +388,7 @@ body{
     top: 400px;   
 }
 
-.busk2{
+#bush2{
     height: 200px;
     width: 250px;
     float: right;
@@ -339,29 +396,29 @@ body{
     top: 450px;
 }
 
-.rainCloud{
+#raincloud2{
     height: 400px;
     width: 400px;
-    z-index: 1;
+    position: relative;
 }
 
-.paraplyTeddy{
+#teddybear2{
     height: 500px;
     width: 280px;
     display: block;
     margin-left: 387px;
     margin-top: 200px;
-    position: absolute;
+    position: relative;
 }
 
-/* Forkert valg - Solbrillerne*/
-.wrongChoice1{
+/* TREDJE VALGMULIGHED*/
+.choice3{
     height: 784px;
     width: 1024px;
-    background: linear-gradient(to bottom, #2B9AC1 0%, #2B9AC1 70%, #D4A181 70%, #D4A181 100%);
+    background: linear-gradient(to bottom, #2B9AC1 0%, #2B9AA4 70%, #D4A181 70%, #D4A181 100%);
 }
 
-.busk1{
+#bush1{
     height: 200px;
     width: 250px;
     float: left;
@@ -369,7 +426,7 @@ body{
     top: 400px;   
 }
 
-.busk2{
+#bush2{
     height: 200px;
     width: 250px;
     float: right;
@@ -377,12 +434,19 @@ body{
     top: 450px;
 }
 
-.sunglassesTeddy{
+#raincloud3{
     height: 400px;
-    width: 255px;
+    width: 400px;
+    position: relative;
+}
+
+#teddybear3{
+    height: 500px;
+    width: 290px;
     display: block;
     margin-left: 387px;
-    margin-top: 300px;
-    position: absolute;
+    margin-top: 200px;
+    position: relative;
 }
+
 
