@@ -73,3 +73,18 @@ let vejrSpil = function() {
         getVejr.style.visibility = "hidden";
     }
 }
+
+/* Kort spil valg */
+
+let valgSpilStatus = true;
+
+let valgSpil = function() {
+    let getValgSpil = document.querySelector(".spilValg");
+    let getValgRigtigt = document.querySelector(".kortSpilRigtigt");
+    
+    if (valgSpilStatus === true) {
+        getValgSpil.style.visibility = "hidden";
+        getValgRigtigt.style.visibility = "visible";
+        
+    }
+}
