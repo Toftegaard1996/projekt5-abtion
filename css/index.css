@@ -431,6 +431,13 @@ body{
     height: 0px;
     visibility: hidden;
 }
+.teddybear1{
+    height: 400px;
+    width: 250px;
+    margin-left: 300px;
+    margin-top: 300px;
+    position: absolute;
+}
 
 .snowcloud{
     width: 450px;
@@ -462,3 +469,12 @@ body{
     height: 0px;
     visibility: ;
 }
+
+.teddybear4{
+    height: 450px;
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 250px;
+    position: absolute;
+}
+
