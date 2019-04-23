@@ -14,3 +14,36 @@ let startSpil = function() {
     }
 }
 
+let rigtigtValgParaplyStatus = true; 
+
+let rigtigtValgParaply = function() {
+    let getRigtigtValgParaply = document.querySelector(".choice2");
+    let getChoice1 = document.querySelector(".choice1");
+    
+    if (rigtigtValgParaplyStatus === true){
+        getRigtigtValgParaply.style.visibility = "visible";
+        getChoice1.style.visibility = "hidden"; 
+    }
+}
+
+let forkertValgSolbrillerStatus = true;
+
+let forkertValgSolbriller = function() {
+    let getForkertValgSolbriller = document.querySelector(".choice3");
+    let getChoice1 = document.querySelector(".choice1");
+    
+    if (forkertValgSolbrillerStatus === true){
+        getForkertValgSolbriller.style.visibility = "visible";
+        getChoice1.style.visibility = "hidden"; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
