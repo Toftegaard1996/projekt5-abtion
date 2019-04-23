@@ -319,8 +319,10 @@ body{
 
 /* Spil */
 
-.game{
-   height: 0px; 
+/* LEVEL 1: MAP */
+.map{
+    height: 0px;
+    visibility: hidden;
 }
 
 .spilHeadline{
@@ -425,18 +427,14 @@ body{
     position: relative;  
 }
 
+
+/*LEVEL 2: KORT*/
+
 /*LEVEL 2: FØRSTE VALGMULIGHED*/
 
 .level2Choice1{
     height: 0px;
     visibility: hidden;
-}
-.teddybear1{
-    height: 400px;
-    width: 250px;
-    margin-left: 300px;
-    margin-top: 300px;
-    position: absolute;
 }
 
 .snowcloud{
@@ -463,11 +461,11 @@ body{
     cursor: pointer;
 }
 
-/*LEVEL 2: FØRSTE VALGMULIGHED*/
+/*LEVEL 2: ANDEN VALGMULIGHED*/
 
 .level2Choice2{
     height: 0px;
-    visibility: ;
+    visibility: hidden;
 }
 
 .teddybear4{
@@ -477,4 +475,36 @@ body{
     margin-top: 250px;
     position: absolute;
 }
+
+.snowbushes{
+    height: 200px;
+    width: 250px;
+    margin-top: 400px;
+    position: relative;  
+}
+
+/*LEVEL 2: TREDJE VALGMULIGHED*/
+
+.level2Choice3{
+    height: 0px;
+    visibility: hidden;
+}
+
+.teddybear5{
+    height: 400px;
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 300px;
+    position: absolute;
+}
+
+
+/* LEVEL 2: MAP */
+
+.mapLevel2{
+    height: 0px;
+    visibility: hidden;
+}
+
+
 
