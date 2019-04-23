@@ -120,7 +120,6 @@ body{
     text-align: center;
     font-weight: 900;
     color: #F0F8FF;
-    position: relative;
     border-radius: 25px;
     position: absolute;
     margin-top: 450px;
@@ -129,15 +128,13 @@ body{
 
 .speechBox1:before {
     content: "";
-    width: 0px;
-    height: 0px;
     position: absolute;
     border-left: 10px solid #F0F8FF;
     border-right: 10px solid transparent;
     border-top: 10px solid #F0F8FF;
     border-bottom: 10px solid transparent;
     right: -20px;
-    position: absolute;
+
 }
 
 .vejretGrader{
