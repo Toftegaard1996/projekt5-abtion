@@ -10,7 +10,8 @@
             </script>
         </head>
         <body>
-        <div class="kortSpilRigtigt">
+        <!-- rigtige valg af kort spil -->
+        <div class="kortSpilRigtigt"> 
             <button onclick="toggleMenu()" class="menu" type="button">
                 <img src="billeder/burgermenu.png" alt="Menu knap">
             </button>
@@ -18,9 +19,12 @@
                 <img src="billeder/controller.png" alt="Kontroller">
             </button>
             <img class="valgSky" alt="Sky" src="billeder/RainCloud.png">
-            <img class="happybear" alt="Bjørn med paraply" src="billeder/UmbrellaBj%C3%B8rn.png">
+            <button onclick="rigtigtValg()" type="button">
+                <img class="happybear" alt="Bjørn med paraply" src="billeder/UmbrellaBj%C3%B8rn.png">
+            </button>
             <div class="happybox">Tak<br>Det var det rigtige valg</div>
         </div>
+        <!-- Forkerte valg af kort spil -->
          <div class="kortSpilForkert">
              <button onclick="toggleMenu()" class="menu" type="button">
                 <img src="billeder/burgermenu.png" alt="Menu knap">
@@ -29,9 +33,12 @@
                 <img src="billeder/controller.png" alt="Kontroller">
             </button>
             <img class="valgSky" alt="Sky" src="billeder/RainCloud.png">
-            <img class="sadBear" alt="Bjørn med solbriller" src="billeder/SadSunglasses.png">
+            <button onclick="forkertValg()" type="button">
+                <img class="sadBear" alt="Bjørn med solbriller" src="billeder/SadSunglasses.png">
+            </button>
             <div class="talebox">Øv<br>Prøv igen</div>
          </div>
+         <!-- Valg til det korte spil -->
           <div class="spilValg">
                 <button onclick="toggleMenu()" class="menu" type="button">
                     <img src="billeder/burgermenu.png" alt="Menu knap">
@@ -41,13 +48,14 @@
                 </button>
                 <img class="valgSky" alt="Sky" src="billeder/RainCloud.png">
                 <img class="valgBamse" alt="Bamse" src="billeder/Bear.png">
-                <button>
+                <button onclick="valgSpilWrong()" type="button">
                     <img class="valgSolbriller" alt="Solbriller" src="billeder/Sunglasses.png">
                 </button>
                 <button onclick="valgSpil()" type="button">
                     <img class="paraply" alt="Paraply" src="billeder/Umbrella.png">
                 </button>
           </div>
+          <!-- Vejr siden -->
            <div class="vejr">
                 <button onclick="toggleMenu()" class="menu" type="button">
                     <img src="billeder/burgermenu.png" alt="Menu knap">
