@@ -315,11 +315,6 @@ body{
 
 /* Spil */
 
-.playGame{
-    
-}
-
-
 .spilHeadline{
     text-align: center;
     color: #F7E648;
@@ -338,93 +333,12 @@ body{
 
 /*DIV CLASSES*/
 
-.tilbageknap{
-}
-
-.raincloud{
-}
-
-.teddybear{
-}
-
-.raincloud{
-    position: relative; 
-    margin-left: 300px;
-    margin-right: 300px;
-    width: 400px;
-    height: 400px;
-    position: relative;
-}
-
-.umbrella{
-    float: left;
-    position: relative;
-    top: 400px;
-    margin: 10px;
-}
-
-.sunglasses{
-    height: 150px;
-    width: 150px;
-    float: right;
-    position: relative;
-    top: 400px;
-    margin: 10px;
-    z-index: 1;
-}
-
-.bushes{
-    height: 200px;
-    width: 250px;
-    position: relative;  
-}
 
 /* FØRSTE VALGMULIGHED */
 .choice1{
     height: 784px;
     width: 1024px;
     background: linear-gradient(to bottom, #2B9AC1 0%, #2B9AA4 70%, #D4A181 70%, #D4A181 100%);
-}
-
-#tilbageKnap1{
-    float: left;
-    background-color: #2B9AC1;
-    box-shadow: 5px 5px 5px #191847;
-    border-radius: 25px;
-    width: 90px;
-    height: 80px;
-    cursor: pointer;
-}
-
-
-#raincloud1 { 
-    height: 400px;
-    width: 400px;
-    position: relative;   
-}
-
-#teddybear1 { 
-    position: relative; 
-    width: 250px;   
-    margin-left: 386px;
-    margin-right: 386px;
-    top:10px;
-}
-
-#umbrella1{
-    position: relative;
-    margin: 10px;
-    height: 150px;
-    width: 150px;
-    float: left;
-}
-
-#sunglasses1{
-    position: relative;
-    margin: 10px;
-    height: 150px;
-    width: 150px;
-    float: right;
 }
 
 /*ANDEN VALGMULIGHED*/
@@ -434,36 +348,6 @@ body{
     background: linear-gradient(to bottom, #2B9AC1 0%, #2B9AA4 70%, #D4A181 70%, #D4A181 100%);
 }
 
-#bush1{
-    height: 200px;
-    width: 250px;
-    float: left;
-    position: relative;
-    top: 400px;   
-}
-
-#bush2{
-    height: 200px;
-    width: 250px;
-    float: right;
-    position: relative;
-    top: 450px;
-}
-
-#raincloud2{
-    height: 400px;
-    width: 400px;
-    position: relative;
-}
-
-#teddybear2{
-    height: 500px;
-    width: 280px;
-    display: block;
-    margin-left: 387px;
-    margin-top: 200px;
-    position: relative;
-}
 
 /* TREDJE VALGMULIGHED*/
 .choice3{
@@ -472,35 +356,58 @@ body{
     background: linear-gradient(to bottom, #2B9AC1 0%, #2B9AA4 70%, #D4A181 70%, #D4A181 100%);
 }
 
-#bush1{
-    height: 200px;
-    width: 250px;
-    float: left;
-    position: relative;
-    top: 400px;   
+.raincloud{
+    width: 450px;
+    height: 300px;
+    margin-left: 300px;
+    position: absolute;
 }
 
-#bush2{
-    height: 200px;
-    width: 250px;
-    float: right;
-    position: relative;
-    top: 450px;
-}
-
-#raincloud3{
+.teddybear1{
     height: 400px;
-    width: 400px;
-    position: relative;
+    width: 250px;
+    margin-left: 300px;
+    margin-top: 300px;
+    position: absolute;
 }
 
-#teddybear3{
-    height: 500px;
-    width: 290px;
-    display: block;
-    margin-left: 387px;
-    margin-top: 200px;
-    position: relative;
+.teddybear2{
+    height: 550px;
+    width: 318px;
+    margin-left: 150px;
+    margin-top: 150px;
+    position: absolute;
 }
+
+.teddybear3{
+    height: 420px;
+    width: 280px;
+    margin-left: 150px;
+    margin-top: 290px;
+    position: absolute;
+}
+
+.umbrella{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 300px;
+    cursor: pointer;
+}
+
+.sunglasses{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.bushes{
+    height: 200px;
+    width: 250px;
+    margin-top: 400px;
+    position: relative;  
+}
+
+
 
 
