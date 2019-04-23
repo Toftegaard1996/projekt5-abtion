@@ -343,8 +343,8 @@ body{
 
 .startSpil{
     position: absolute;
-    margin-top: 500px;
-    margin-left: 500px;
+    margin-top: 0px;
+    margin-left: 900px;
     background-color: #F7E648;
     box-shadow: 5px 5px 5px #191847;
     border-radius: 25px;
@@ -360,31 +360,18 @@ body{
     visibility: hidden;
 }
 
-/*ANDEN VALGMULIGHED*/
-.choice2{
-    height: 0px;
-    visibility: hidden;
-}
-
-/* TREDJE VALGMULIGHED*/
-.choice3{
-    height: 0px;
-    visibility: hidden;
-}
-
-.raincloud{
-    width: 450px;
-    height: 300px;
-    margin-left: 200px;
-    position: absolute;
-}
-
 .teddybear1{
     height: 400px;
     width: 250px;
     margin-left: 300px;
     margin-top: 300px;
     position: absolute;
+}
+
+/*ANDEN VALGMULIGHED*/
+.choice2{
+    height: 0px;
+    visibility: hidden;
 }
 
 .teddybear2{
@@ -395,11 +382,25 @@ body{
     position: absolute;
 }
 
+
+/* TREDJE VALGMULIGHED*/
+.choice3{
+    height: 0px;
+    visibility: hidden;
+}
+
 .teddybear3{
     height: 420px;
     width: 280px;
     margin-left: 50px;
     margin-top: 290px;
+    position: absolute;
+}
+
+.raincloud{
+    width: 450px;
+    height: 300px;
+    margin-left: 200px;
     position: absolute;
 }
 
@@ -424,6 +425,40 @@ body{
     position: relative;  
 }
 
+/*LEVEL 2: FØRSTE VALGMULIGHED*/
 
+.level2Choice1{
+    height: 0px;
+    visibility: hidden;
+}
 
+.snowcloud{
+    width: 450px;
+    height: 300px;
+    margin-left: 200px;
+    position: absolute;
+}
 
+.hat{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 300px;
+    cursor: pointer;
+}
+
+.shorts{
+    width: 200px;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+/*LEVEL 2: FØRSTE VALGMULIGHED*/
+
+.level2Choice2{
+    height: 0px;
+    visibility: ;
+}
