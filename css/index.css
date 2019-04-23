@@ -319,39 +319,57 @@ body{
 
 /* Spil */
 
+.game{
+   height: 0px; 
+}
+
 .spilHeadline{
     text-align: center;
     color: #F7E648;
-    margin: 30px 150px;
+    margin-left: 350px;
     font-weight: bold;
     text-shadow: 3px 3px 3px black;
     text-decoration: underline;
+    position: absolute; 
 }
 
 /* Tryk på spil - map */
-.kort1{
+.kort{
     height: 640px;
     width: 1024px;
-    position: relative;
+    margin-top: 80px;
+    position: absolute;
+}
+
+.startSpil{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 500px;
+    background-color: #F7E648;
+    box-shadow: 5px 5px 5px #191847;
+    border-radius: 25px;
+    width: 90px;
+    height: 80px;
+    cursor: pointer;
+    
 }
 
 /* FØRSTE VALGMULIGHED */
 .choice1{
     height: 0px;
-    
+    visibility: hidden;
 }
 
 /*ANDEN VALGMULIGHED*/
 .choice2{
     height: 0px;
-    
+    visibility: hidden;
 }
-
 
 /* TREDJE VALGMULIGHED*/
 .choice3{
     height: 0px;
-   
+    visibility: hidden;
 }
 
 .raincloud{
