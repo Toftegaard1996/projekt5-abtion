@@ -331,9 +331,6 @@ body{
     position: relative;
 }
 
-/*DIV CLASSES*/
-
-
 /* FØRSTE VALGMULIGHED */
 .choice1{
     height: 784px;
@@ -359,7 +356,7 @@ body{
 .raincloud{
     width: 450px;
     height: 300px;
-    margin-left: 300px;
+    margin-left: 200px;
     position: absolute;
 }
 
@@ -374,7 +371,7 @@ body{
 .teddybear2{
     height: 550px;
     width: 318px;
-    margin-left: 150px;
+    margin-left: 50px;
     margin-top: 150px;
     position: absolute;
 }
@@ -382,7 +379,7 @@ body{
 .teddybear3{
     height: 420px;
     width: 280px;
-    margin-left: 150px;
+    margin-left: 50px;
     margin-top: 290px;
     position: absolute;
 }
