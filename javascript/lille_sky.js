@@ -74,7 +74,7 @@ let vejrSpil = function() {
     }
 }
 
-/* Kort spil valg */
+/* Kort spil valg rigtigt */
 
 let valgSpilStatus = true;
 
@@ -88,3 +88,34 @@ let valgSpil = function() {
         
     }
 }
+
+let rigtigtValgStatus = true;
+
+let rigtigtValg = function() {
+    let getRigtigtValg = document.querySelector(".kortSpilRigtigt");
+    let getVejrSide = document.querySelector(".vejr");
+    
+    if (rigtigtValgStatus === true) {
+        getRigtigtValg.style.visibility = "hidden";
+        getVejrSide.style.visibility = "visible";
+    }
+}
+
+
+/* Kort spil valg forkert */
+
+let valgSpilWrongStatus = true;
+
+let valgSpilWrong = function() {
+    let getValgSpil = document.querySelector(".spilValg");
+    let getValgForkert = document.querySelector(".kortSpilForkert");
+    
+    if (valgSpilStatus === true) {
+        getValgSpil.style.visibility = "hidden";
+        getValgForkert.style.visibility = "visible";
+        
+    }
+}
+
+let forkertValgStatus = true;
+
