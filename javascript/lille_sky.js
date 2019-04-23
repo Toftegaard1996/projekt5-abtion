@@ -121,10 +121,10 @@ let forkertValgStatus = true;
 
 let forkertValg = function() {
     let getForkertValg = document.querySelector(".kortSpilForkert");
-    let getVejrSide = document.querySelector(".vejr");
+    let getValgSpil = document.querySelector(".spilValg");
     
     if (rigtigtValgStatus === true) {
         getForkertValg.style.visibility = "hidden";
-        getVejrSide.style.visibility = "visible";
+        getValgSpil.style.visibility = "visible";
     }
 }
