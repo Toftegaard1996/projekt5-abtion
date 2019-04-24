@@ -78,8 +78,8 @@ let rigtigtValgHatStatus = true;
 let rigtigtValgHat = function() { 
     let getRigtigtValgHat = document.querySelector(".level2Choice1");
     let getLevel2Choice2 = document.querySelector(".level2Choice2"); 
-    
-    let 
+      
+    let getMap3 = document.querySelector(".mapLevel3");
     
     if (rigtigtValgHatStatus === true){
         getRigtigtValgHat.style.visibility = "hidden";
@@ -88,7 +88,7 @@ let rigtigtValgHat = function() {
         setTimeout(function(){ 
             getRigtigtValgHat.style.visibility = "hidden";
             getLevel2Choice2.style.visibility = "hidden";
-            getMap2.style.visibility = "visible";
+            getMap3.style.visibility = "visible";
         },2000);
     }
 }
