@@ -97,13 +97,15 @@ let forkertValgShortsStatus = true;
 
 let forkertValgShorts = function() {
     let getForkertValgShorts = document.querySelector(".level2Choice1");
-    
     let getLevel2Choice3 = document.querySelector(".level2Choice3");
     
     if (forkertValgShortsStatus === true){
         getForkertValgShorts.style.visibility = "hidden";
-        
         getLevel2Choice3.style.visibility = "visible"; 
+        setTimeout (function(){
+            getForkertValgShorts.style.visibility = "visible";
+            getLevel2Choice3.style.visibility = "hidden";
+        },2000);
     }
 } 
 
