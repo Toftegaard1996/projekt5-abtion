@@ -64,6 +64,7 @@ let startSpil2 = function() {
 
     let getSpil2Startet = document.querySelector(".level2Choice1");
     let getMap2 = document.querySelector(".mapLevel2");
+
     
     if (startSpil2Status === true){
         getSpil2Startet.style.visibility = "visible";
@@ -79,6 +80,8 @@ let rigtigtValgHat = function() {
     
     let getLevel2Choice2 = document.querySelector(".level2Choice2"); 
     
+    let 
+    
     if (rigtigtValgHatStatus === true){
         getRigtigtValgHat.style.visibility = "hidden";
         
@@ -89,7 +92,15 @@ let rigtigtValgHat = function() {
 let forkertValgShortsStatus = true;
 
 let forkertValgShorts = function() {
-    let getForkertValgShorts = document.querySelector 
+    let getForkertValgShorts = document.querySelector(".level2Choice1");
+    
+    let getLevel2Choice3 = document.querySelector(".level2Choice3");
+    
+    if (forkertValgShortsStatus === true){
+        getForkertValgShorts.style.visibility = "hidden";
+        
+        getLevel2Choice3.style.visibility = "visible"; 
+    }
 } 
 
 
