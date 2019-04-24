@@ -57,17 +57,17 @@ let forkertValgSolbriller = function() {
     }
 }
 
-let startSpil2Status = true;
+let startSpilStatus = true;
 
 
-let startSpil2 = function() {
+let startSpil = function() {
 
-    let getSpil2Startet = document.querySelector(".level2Choice1");
-    let getMap2 = document.querySelector(".map2");
+    let getSpilStartet = document.querySelector(".level2Choice1");
+    let getMap2 = document.querySelector(".mapLevel2");
     
-    if (startSpil2Status === true){
-        getSpil2.style.visibility = "visible";
-        getMap2.style.visibility = "hidden";
+    if (startSpilStatus === true){
+        getSpilStartet.style.visibility = "visible";
+        getMap2.style.visibility = "hidden"; 
     }
 }
 
