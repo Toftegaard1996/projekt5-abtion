@@ -74,19 +74,23 @@ let startSpil2 = function() {
 
 let rigtigtValgHatStatus = true; 
 
-let rigtigtValgHat = function(){ 
+let rigtigtValgHat = function() { 
     let getRigtigtValgHat = document.querySelector(".level2Choice1");
     
     let getLevel2Choice2 = document.querySelector(".level2Choice2"); 
     
     if (rigtigtValgHatStatus === true){
-        getRigtigtValgHat.style.visibility = "visible";
+        getRigtigtValgHat.style.visibility = "hidden";
         
-        getLevel2Choice2.style.visibility = "hidden";
+        getLevel2Choice2.style.visibility = "visible";
     }
 }
 
+let forkertValgShortsStatus = true;
 
+let forkertValgShorts = function() {
+    let getForkertValgShorts = document.querySelector 
+} 
 
 
 
