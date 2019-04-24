@@ -57,19 +57,19 @@ let forkertValgSolbriller = function() {
     }
 }
 
-let startSpilStatus = true;
+let startSpil2Status = true;
 
 
-let startSpil = function() {
+let startSpil2 = function() { 
 
-    let getSpilStartet = document.querySelector(".level2Choice1");
+    let getSpil2Startet = document.querySelector(".level2Choice1");
     let getMap2 = document.querySelector(".mapLevel2");
     
-    if (startSpilStatus === true){
-        getSpilStartet.style.visibility = "visible";
+    if (startSpil2Status === true){
+        getSpil2StartetStartet.style.visibility = "visible";
         getMap2.style.visibility = "hidden"; 
     }
-}
+} 
 
 
 let rigtigtValgHatStatus = true; 
