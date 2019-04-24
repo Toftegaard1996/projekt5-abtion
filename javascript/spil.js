@@ -75,12 +75,12 @@ let startSpil2 = function() {
 let rigtigtValgHatStatus = true; 
 
 let rigtigtValgHat = function(){ 
-    let getRigtigtValgHue = document.querySelector(".level2Choice1");
+    let getRigtigtValgHat = document.querySelector(".level2Choice1");
     
-    let getLevel2Choice2 = document.querySelector(".Level2Choice2");
+    let getLevel2Choice2 = document.querySelector(".level2Choice2"); 
     
     if (rigtigtValgHatStatus === true){
-        getRigtigtValgHue.style.visibility = "visible";
+        getRigtigtValgHat.style.visibility = "visible";
         
         getLevel2Choice2.style.visibility = "hidden";
     }
