@@ -773,5 +773,10 @@ body{
     position: absolute;
 }
 
+/* LEVEL 3: MAP */
 
+.mapLevel3{
+    height: 0px;
+    visibility: hidden;
+}
 
