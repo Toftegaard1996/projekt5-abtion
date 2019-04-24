@@ -322,7 +322,7 @@ body{
 /* LEVEL 1: MAP */
 .map{
     height: 0px;
-    visibility: hidden;
+    visibility:
 }
 
 .spilHeadline{
@@ -425,77 +425,6 @@ body{
     width: 250px;
     margin-top: 400px;
     position: relative;  
-}
-
-
-/*LEVEL 2: KORT*/
-
-/*LEVEL 2: FØRSTE VALGMULIGHED*/
-
-.level2Choice1{
-    height: 0px;
-    visibility: hidden;
-}
-
-.snowcloud{
-    width: 450px;
-    height: 300px;
-    margin-left: 200px;
-    position: absolute;
-}
-
-.hat{
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    margin-left: 600px;
-    margin-top: 300px;
-    cursor: pointer;
-}
-
-.shorts{
-    width: 200px;
-    position: absolute;
-    margin-top: 350px;
-    margin-left: 50px;
-    cursor: pointer;
-}
-
-/*LEVEL 2: ANDEN VALGMULIGHED*/
-
-.level2Choice2{
-    height: 0px;
-    visibility: hidden;
-}
-
-.teddybear4{
-    height: 450px;
-    width: 250px;
-    margin-left: 50px;
-    margin-top: 250px;
-    position: absolute;
-}
-
-.snowbushes{
-    height: 200px;
-    width: 250px;
-    margin-top: 400px;
-    position: relative;  
-}
-
-/*LEVEL 2: TREDJE VALGMULIGHED*/
-
-.level2Choice3{
-    height: 0px;
-    visibility: hidden;
-}
-
-.teddybear5{
-    height: 400px;
-    width: 250px;
-    margin-left: 50px;
-    margin-top: 300px;
-    position: absolute;
 }
 
 
