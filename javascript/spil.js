@@ -57,6 +57,37 @@ let forkertValgSolbriller = function() {
     }
 }
 
+let startSpil2Status = true;
+
+
+let startSpil2 = function() {
+
+    let getSpil2Startet = document.querySelector(".level2Choice1");
+    let getMap2 = document.querySelector(".map2");
+    
+    if (startSpil2Status === true){
+        getSpil2.style.visibility = "visible";
+        getMap2.style.visibility = "hidden";
+    }
+}
+
+
+let rigtigtValgHatStatus = true; 
+
+let rigtigtValgHat = function(){ 
+    let getRigtigtValgHue = document.querySelector(".level2Choice1");
+    
+    let getLevel2Choice2 = document.querySelector(".Level2Choice2");
+    
+    if (rigtigtValgHatStatus === true){
+        getRigtigtValgHue.style.visibility = "visible";
+        
+        getLevel2Choice2.style.visibility = "hidden";
+    }
+}
+
+
+
 
 
 
