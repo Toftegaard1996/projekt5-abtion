@@ -18,7 +18,7 @@ let startSpil = function() {
 
 let rigtigtValgParaplyStatus = true; 
 
-let rigtigtValgParaply = function() {
+let rigtigtValgParaply = function() { 
     let getRigtigtValgParaply = document.querySelector(".choice2");
     let getChoice1 = document.querySelector(".choice1");
     
