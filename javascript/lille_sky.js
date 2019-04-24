@@ -81,23 +81,17 @@ let valgSpilStatus = true;
 let valgSpil = function() {
     let getValgSpil = document.querySelector(".spilValg");
     let getValgRigtigt = document.querySelector(".kortSpilRigtigt");
+    let getVejrSide = document.querySelector(".vejr");
     
     if (valgSpilStatus === true) {
         getValgSpil.style.visibility = "hidden";
         getValgRigtigt.style.visibility = "visible";
+          setTimeout(function(){ 
+            getValgSpil.style.visibility = "hidden";
+            getValgRigtigt.style.visibility = "hidden";
+            getVejrSide.style.visibility = "visible";
+        },3000);
         
-    }
-}
-
-let rigtigtValgStatus = true;
-
-let rigtigtValg = function() {
-    let getRigtigtValg = document.querySelector(".kortSpilRigtigt");
-    let getVejrSide = document.querySelector(".vejr");
-    
-    if (rigtigtValgStatus === true) {
-        getRigtigtValg.style.visibility = "hidden";
-        getVejrSide.style.visibility = "visible";
     }
 }
 
@@ -113,6 +107,10 @@ let valgSpilWrong = function() {
     if (valgSpilStatus === true) {
         getValgSpil.style.visibility = "hidden";
         getValgForkert.style.visibility = "visible";
+        setTimeout(function(){ 
+            getValgForkert.style.visibility = "hidden";
+            getValgSpil.style.visibility = "visible";
+        },3000);
         
     }
 }
