@@ -66,7 +66,7 @@ let startSpil2 = function() {
     let getMap2 = document.querySelector(".mapLevel2");
     
     if (startSpil2Status === true){
-        getSpil2StartetStartet.style.visibility = "visible";
+        getSpil2Startet.style.visibility = "visible";
         getMap2.style.visibility = "hidden"; 
     }
 } 
