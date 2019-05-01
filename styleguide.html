@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+    <html lang="da">
+        <head>
+            <link rel="stylesheet" href="css/styleguide.css"> 
+            <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+            <meta charset="utf-8">
+            <title> Style guide - Lille sky - vejrapp for børn
+            </title>
+        </head>
+        <body>
+           <h1>Style guide for appen 'Lille sky'
+           </h1><br>
+           <hr>
+            <h2>Typografi
+            </h2>
+            <p class="typografi">Typografien er "Montserrat", som både bliver brugt til overskrifter og til brødtekst. </p>
+            <div class="spilHeadline">
+                <h1>Eventyrspillet</h1>
+                <h2>Hjælp din ven på eventyr</h2>
+            </div>
+            <p class="kodeHeadline">
+                .spilHeadline{<br>
+                text-align: center;<br>
+                color: #F7E648;<br>
+                margin-left: 350px;<br>
+                font-weight: bold;<br>
+                text-shadow: 3px 3px 3px black;<br>
+                text-decoration: underline;<br>
+                position: absolute; <br>
+                }
+            </p>
+            <hr>
+            <h2>Farvepalette
+            </h2>
+            <div class="farver">
+                <div>#F0F8FF</div>
+                <div>#2B9AC1</div>
+                <div>#F7E648</div>
+                <div>#D4A181</div>
+                <div>#2B44FF</div>
+                <div>#F72621</div>
+                <div>#ED7A1B</div>
+                <div>#191847</div>
+            </div>
+            <hr>
+            <div class="lille-sky">
+            </div> 
+            <p>.lille-sky {<br>
+                width: 1024px;<br>
+                height: 784px;<br>
+                background: url(../billeder/LoadingSkyAnimation-01.png) 0 0 no-repeat;<br>
+                animation: lille-sky 2s steps(15) infinite;<br>
+                position: absolute;<br>
+                }<br><br>
+
+                @keyframes lille-sky {<br>
+                0% {background-position: 0px;}<br>
+                100% {background-position: -15360px;}<br>
+                }
+            </p><br>
+            <hr>
+            <div>
+                <button onclick="toggleMenu()" class="menu" type="button">
+                    <img src="billeder/burgermenu.png" alt="Menu knap">
+                </button>
+                <button onclick="spil()" class="parentSpil" type="button">
+                    <img src="billeder/controller.png" alt="Kontroller">
+                </button>
+                <button onclick="tilbage()" class="back" type="button">
+                    <img src="billeder/Tilbagepil.png" alt="Tilbagepil">
+                </button>
+            </div><br>
+            <p>
+                .menu{<br>
+                float: left;<br>
+                background-color: #2B9AC1;<br>
+                box-shadow: 5px 5px 5px #191847;<br>
+                border-radius: 25px;<br>
+                width: 90px;<br>
+                height: 80px;<br>
+                margin-top: 0;<br>
+                position: fixed;<br>
+                cursor: pointer;<br>
+                }
+            </p>
+            <p>
+                .back{<br>
+                float: left;<br>
+                position: absolute;<br>
+                background-color: #2B9AC1;<br>
+                box-shadow: 5px 5px 5px #191847;<br>
+                border-radius: 25px;<br>
+                width: 90px;<br>
+                height: 80px;<br>
+                cursor: pointer;<br>
+                }
+            </p>
+            <p>
+                .parentSpil{<br>
+                float: right;<br>
+                background-color: #2B9AC1;<br>
+                box-shadow: 5px 5px 5px #191847;<br>
+                border-radius: 25px;<br>
+                width: 90px;<br>
+                height: 80px;<br>
+                cursor: pointer;<br>
+                }
+            </p>
+            <p>
+                .menuSpil{<br>
+                position: fixed;<br>
+                margin-left: 900px;<br>
+                background-color: #2B9AC1;<br>
+                box-shadow: 5px 5px 5px #191847;<br>
+                border-radius: 25px;<br>
+                width: 90px;<br>
+                height: 80px;<br>
+                margin-top: 0;<br>
+                cursor: pointer;<br>
+                }
+            </p>
+        </body>

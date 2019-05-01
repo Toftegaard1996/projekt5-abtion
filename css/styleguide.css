@@ -1,0 +1,89 @@
+body{
+   background-color: #2B9AC1;
+    font-family:'montserrat', sans-serif;
+}
+
+hr{
+    margin: auto;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    display: block;
+    border-style: dashed;
+    border-width: 2px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2{
+    text-align: center;
+}
+
+.typografi{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin: auto;
+}
+
+.spilHeadline{
+    text-align: center;
+    color: #F7E648;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px black;
+    text-decoration: underline;
+}
+
+.kodeHeadline{
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    padding-top: 20px;
+}
+
+.lille-sky {
+    width: 1024px;
+    height: 784px;
+    margin: auto;
+    background: url(../billeder/LoadingSkyAnimation-01.png) 0 0 no-repeat;
+    animation: lille-sky 2s steps(15) infinite;
+}
+
+@keyframes lille-sky {
+    0% {background-position: 0px;}
+    100% {background-position: -15360px;}
+}
+
+.menu{
+    background-color: #2B9AC1;
+    box-shadow: 5px 5px 5px #191847;
+    border-radius: 25px;
+    width: 90px;
+    height: 80px;
+    cursor: pointer;
+    margin-left: 37%;
+}
+
+.back{
+    background-color: #2B9AC1;
+    box-shadow: 5px 5px 5px #191847;
+    border-radius: 25px;
+    width: 90px;
+    height: 80px;
+    cursor: pointer;
+    margin-left: 100px
+}
+
+.parentSpil{
+    background-color: #2B9AC1;
+    box-shadow: 5px 5px 5px #191847;
+    border-radius: 25px;
+    width: 90px;
+    height: 80px;
+    cursor: pointer;
+    margin-left: 100px;
+}
