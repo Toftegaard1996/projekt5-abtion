@@ -45,6 +45,11 @@ p{
     padding-top: 20px;
 }
 
+.farver{
+    margin-left: 25%;  
+    margin-bottom: 5%; 
+}
+
 .lille-sky {
     width: 1024px;
     height: 784px;
@@ -65,7 +70,7 @@ p{
     width: 90px;
     height: 80px;
     cursor: pointer;
-    margin-left: 37%;
+    margin-left: 31%;
 }
 
 .back{
@@ -86,4 +91,8 @@ p{
     height: 80px;
     cursor: pointer;
     margin-left: 100px;
+}
+
+.footer{
+    margin: 5%; 
 }
