@@ -15,10 +15,18 @@ hr{
 h1{
     text-align: center;
     margin-top: 50px;
+    color: #F7E648;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px black;
+    text-decoration: underline;
 }
 
 h2{
     text-align: center;
+    color: #F7E648;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px black;
+    text-decoration: underline;    
 }
 
 .typografi{
@@ -45,15 +53,18 @@ p{
     padding-top: 20px;
 }
 
-.farver{
-    margin-left: 25%;  
-    margin-bottom: 5%; 
+.farve-boks{
+    width: 740px;
+    margin: auto;
+    margin-top: 25px;
 }
 
 .lille-sky {
     width: 1024px;
     height: 784px;
     margin: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
     background: url(../billeder/LoadingSkyAnimation-01.png) 0 0 no-repeat;
     animation: lille-sky 2s steps(15) infinite;
 }
@@ -63,6 +74,12 @@ p{
     100% {background-position: -15360px;}
 }
 
+.knapper{
+    width: 480px;
+    margin: auto;
+    margin-top: 25px;
+}
+
 .menu{
     background-color: #2B9AC1;
     box-shadow: 5px 5px 5px #191847;
@@ -70,7 +87,6 @@ p{
     width: 90px;
     height: 80px;
     cursor: pointer;
-    margin-left: 31%;
 }
 
 .back{
@@ -93,6 +109,47 @@ p{
     margin-left: 100px;
 }
 
-.footer{
-    margin: 5%; 
+.uformelt{
+    width: 300px;
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 25px;
 }
+
+.kortfattet{
+    width: 300px;
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.opmuntrende{
+    width: 300px;
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.illustrationer{
+    width: 300px;
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.farver{
+    width: 300px;
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.bear{
+    width: 250px;
+}
+
+.bear2{
+    width: 250px;
+    margin: auto;
+}
+
